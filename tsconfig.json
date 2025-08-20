@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext", // 适合现代 Node.js 环境
+    "module": "nodenext", // 与 package.json 的 "type": "commonjs" 一致
+    "moduleResolution": "nodenext", // 更新为 node16，支持现代模块解析
+    "esModuleInterop": true, // 支持 CommonJS 模块互操作
+    "skipLibCheck": true, // 跳过库文件类型检查
+    "allowSyntheticDefaultImports": true, // 允许默认导入
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "strict": true
+  },
+  "exclude": ["node-modules", "generated/*"]
+}
